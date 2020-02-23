@@ -17,6 +17,7 @@ const Container = styled.div`
 const Title = styled.h2`
 	background-color: ${chroma(selectColor).css()};
 	margin: 0;
+        font-family: sans-serif;
 `;
 
 type Props = {
